@@ -1,0 +1,9 @@
+August 25 2006
+Nu-Blu Fluxbox Style is released through the GPL license by M.Gallegos.
+
+To install:
+Copy the Nu-Blu folder to the .fluxbox/styles folder in your home directory. Thats it!! 
+
+Enjoy
+
+
