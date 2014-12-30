@@ -50,7 +50,6 @@ Mod4 b :ExecCommand /home/gramos/doc/slides/consola-white
 Mod4 l :ExecCommand xtrlock
 Mod4 k :ExecCommand konqueror
 Mod4 m :ExecCommand wmctrl -a musica || xfce4-terminal -e "mocp -m /home/gramos/ -C /home/gramos/.moc/config" --title=musica
-Mod4 v :ExecCommand mrxvt 
 Mod4 t :ExecCommand ruby -e 'puts "#{Time.now.day} / #{Time.now.month} - #{Time.now.hour}:#{Time.now.min}"' | aosd_cat --fade-in=80 --fade-out=80  --back-color=black --fore-color=white --back-opacity=100 --font="Apple Garamond 20" --padding=30  --shadow-offset=0 --x-offset=1000 --y-offset=-700
 Mod4 f :Fullscreen
 Mod4 v :MaximizeVertical
@@ -59,13 +58,11 @@ Mod4 i :ExecCommand wmctrl -a iceweasel || iceweasel
 Mod4 w :ExecCommand iceweasel en.wikipedia.org
 Mod4 e :ExecCommand wmctrl -a emacs || emacs
 Mod4 s :ExecCommand wmctrl -a skype || skype
-#Mod4 r :ExecCommand sudo masqmail -g &&  xfce4-terminal -e "mutt -y"
-#Mod4 q :ExecCommand wmctrl -a CenterIM || imiso
 Mod4 u :ExecCommand aumix -v+5 && echo %$(aumix -q | grep 'vol ' | cut -d ' ' -f 2 | tr -d ','):Volume | aosd_cat --fade-in=80 --fade-out=80  --back-color=black --fore-color=white --back-opacity=100 --font="Apple Garamond 20" --padding=30  --shadow-offset=0 --x-offset=1000 --y-offset=-700
 Mod4 d :ExecCommand aumix -v-5 && echo %$(aumix -q | grep 'vol ' | cut -d ' ' -f 2 | tr -d ','):Volume | aosd_cat --fade-in=80 --fade-out=80  --back-color=black --fore-color=white --back-opacity=100 --font="Apple Garamond 20" --padding=30  --shadow-offset=0 --x-offset=1000 --y-offset=-700
 Mod4 x :NextTab
 Mod4 z :PrevTab
-#Mod4 y :ExecCommand wmctrl -a Twitter || iceweasel twitter.com
+
 
 
 
